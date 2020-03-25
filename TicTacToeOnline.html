@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en_US">
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="TicNames.css" type="text/css">
+    <script src="TicTacToeElements.js"></script>
+</head>
+
+<body>
+    <h1>Tic Tac Toe<a href="#" id="play_Again_Button" style="display:inline;display:none" onclick="reset()">Play Again?</a>
+    </h1>
+
+    <h2 id="score">Score: <p style="display:inline;color:blue" id="x_Wins_Display">0</p>X|<p
+            style="display:inline;color:blue" id="o_Wins_Display">0</p>O - <p style="display:inline;color:green"
+            id="toast">no one has won yet</p>
+    </h2>
+    <div class="nameChange">
+        <span>X:</span>
+        <input type="text">
+        <button class="fancyButton">
+            Change Name
+        </button>
+        <span>O:</span>
+        <input type="text">
+        <button class="fancyButton">
+            Change Name
+        </button>
+    </div>
+    <h2>It's Currently <p style="display:inline;color:red" id="turn_Display">X</p>'s turn! </h2>
+    <div class="wrapper">
+        <a href="#" class="square" id="s1" onclick="onClick(this.id)">
+            <br>
+        </a>
+        <a href="#" class="square" id="s2" onclick="onClick(this.id)">
+            <br>
+        </a>
+        <a href="#" class="square" id="s3" onclick="onClick(this.id)">
+            <br>
+        </a>
+        <a href="#" class="square" id="s4" onclick="onClick(this.id)">
+            <br>
+        </a>
+        <a href="#" class="square" id="s5" onclick="onClick(this.id)">
+            <br>
+        </a>
+        <a href="#" class="square" id="s6" onclick="onClick(this.id)">
+            <br>
+        </a>
+        <a href="#" class="square" id="s7" onclick="onClick(this.id)">
+            <br>
+        </a>
+        <a href="#" class="square" id="s8" onclick="onClick(this.id)">
+            <br>
+        </a>
+        <a href="#" class="square" id="s9" onclick="onClick(this.id)">
+            <br>
+        </a>
+    </div>
+
+
+</body>
+
+</html>

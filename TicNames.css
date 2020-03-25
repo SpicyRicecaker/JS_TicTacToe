@@ -1,0 +1,65 @@
+@font-face {
+    font-family:'Lemon Milk';
+    src: url(fonts/LEMONMILK-Regular.otf);
+}
+@font-face {
+    font-family:'Open Sans';
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+body {
+    background-color:black;
+    color: white;
+    font-family:'Lemon Milk';
+}
+
+h1 {
+    font-size:230%;
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+}
+
+a.square {
+    text-align:center;
+    background-color:white;
+    /*
+    padding-top:60px;
+    padding-bottom:60px;
+    */
+    color: black;
+    text-decoration:none;
+    font-size:750%;
+}
+
+a:link, a:visited{
+    /*nothing to do here for now*/
+    background-color:white;
+}
+a:hover{
+    background-color:#cccccc;
+}
+a:active{
+    background-color:black;
+}
+
+button.fancyButton {
+    font-family:'Open Sans';
+}
+
+div.nameChange {
+    text-align: center;
+}
+
+ .wrapper{
+    display:grid;
+    grid-template-Columns:repeat(3, 1fr);
+    grid-column-gap:.5em;
+    grid-row-gap:.5em;
+    /*grid-auto-rows: minmax(200px, auto);*/
+ }
+
+#play_Again_Button{
+    text-decoration:none;
+}
